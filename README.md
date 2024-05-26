@@ -1,4 +1,4 @@
-![Banner](https://github.com/AnkitKumar-Mohbey/github-header-image.png/blob/main/github-header-image.png)
+![Banner](https://github.com/AnkitKumar-Mohbey/github-header-image.png)
 
 # Meet Ankit: A Passionate Developer & Open Source Contributor
 
