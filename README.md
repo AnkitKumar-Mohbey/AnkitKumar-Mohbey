@@ -15,15 +15,15 @@ I have made significant contributions to the open-source community. I have creat
 ## 🛠️ Skills
 
 <p align="center">
-  <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/github.png" alt="github"/>
   <img width="94" height="94" src="https://img.icons8.com/color/96/linux--v1.png" alt="linux--v1"/>
   <img width="94" height="94" src="https://img.icons8.com/3d-fluency/750/java-coffee-cup-logo.png" alt="java-coffee-cup-logo"/>
-  <img width="94" height="94" src="https://img.icons8.com/3d-fluency/188/python.png" alt="python"/>
+  <img width="94" height="94" src="https://img.icons8.com/3d-fluency/188/python.png" alt="python"/> <br>
   <img width="94" height="94" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
-  <img width="94" height="94" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
+  <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/github.png" alt="github"/>
+  <img width="94" height="94" src="https://img.icons8.com/color/48/css3.png" alt="css3"/> <br>
   <img width="94" height="94" src="https://img.icons8.com/color/96/javascript--v1.png" alt="javascript--v1"/>
   <img width="94" height="94" src="https://img.icons8.com/color/96/figma--v1.png" alt="figma--v1"/>
-  <img width="94" height="94" src="https://img.icons8.com/color/96/opencv.png" alt="opencv"/>
+  <img width="94" height="94" src="https://img.icons8.com/color/96/opencv.png" alt="opencv"/> <br>
   <img src="https://img.shields.io/badge/Artificial_Intelligence-1A73E8?style=for-the-badge&logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=google&logoColor=white" />
 </p>
