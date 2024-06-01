@@ -15,6 +15,7 @@ I have made significant contributions to the open-source community. I have creat
 ## 🛠️ Skills
 
 <p align="center">
+  <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/github.png" alt="github"/>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
