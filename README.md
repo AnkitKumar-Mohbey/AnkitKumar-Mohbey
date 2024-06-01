@@ -23,6 +23,7 @@ I have made significant contributions to the open-source community. I have creat
   <img src="https://img.shields.io/badge/Artificial_Intelligence-1A73E8?style=for-the-badge&logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://icons8.com/icon/LoL4bFzqmAa0/github" />
 </p>
 
 ## 💼 Projects
