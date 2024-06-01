@@ -36,7 +36,8 @@ I have made significant contributions to the open-source community. I have creat
 
 ## 📫 Reach Me On
 
-- [![LinkedIn](<img width="96" height="96" src="https://img.icons8.com/3d-fluency/94/linkedin.png" alt="linkedin"/>)](https://www.linkedin.com/in/ankit-mohbey/)
+- <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/linkedin.png" alt="linkedin"/>
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ankit-mohbey/)
 - [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](Soon)
 
 ---
