@@ -16,14 +16,16 @@ I have made significant contributions to the open-source community. I have creat
 
 <p align="center">
   <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/github.png" alt="github"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img width="94" height="94" src="https://img.icons8.com/color/96/linux--v1.png" alt="linux--v1"/>
+  <img width="94" height="94" src="https://img.icons8.com/3d-fluency/750/java-coffee-cup-logo.png" alt="java-coffee-cup-logo"/>
+  <img width="94" height="94" src="https://img.icons8.com/3d-fluency/188/python.png" alt="python"/>
+  <img width="94" height="94" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
+  <img width="94" height="94" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
+  <img width="94" height="94" src="https://img.icons8.com/color/96/javascript--v1.png" alt="javascript--v1"/>
+  <img width="94" height="94" src="https://img.icons8.com/color/96/figma--v1.png" alt="figma--v1"/>
+  <img width="94" height="94" src="https://img.icons8.com/color/96/opencv.png" alt="opencv"/>
   <img src="https://img.shields.io/badge/Artificial_Intelligence-1A73E8?style=for-the-badge&logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
 </p>
 
 ## 💼 Projects
