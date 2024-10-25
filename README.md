@@ -28,12 +28,6 @@ I have made significant contributions to the open-source community. I have creat
   <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=google&logoColor=white" />
 </p>
 
-## 💼 Projects
-
-- **Project 1**: Description of project 1, technologies used, [link to project](#).
-- **Project 2**: Description of project 2, technologies used, [link to project](#).
-- **Project 3**: Description of project 3, technologies used, [link to project](#).
-
 ## 📫 Reach Me On
 
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ankit-mohbey/)
