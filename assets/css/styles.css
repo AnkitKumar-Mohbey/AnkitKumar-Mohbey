@@ -1,0 +1,279 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    --header-height: 3.5rem;
+
+    /* =================== Fav Color ==============*/
+    --hue: 255;
+    /* --first-color: hsl(159, 46%, 50%); */
+    --first-color: #2bb09ffe;
+    /* --first-color: hsl(var(--hue), 90%, 60%); */
+    --first-color-alt: hsl(var(--hue), 82%, 56%);
+    --first-color-light: hsl(var(--hue), 40%, 80%);
+    --title-color: hsl(var(--hue), 24%, 16%);
+    --text-color: hsl(var(--hue), 8%, 45%);
+    --text-color-light: hsl(var(--hue), 8%, 60%);
+    --white-color: hsl(0, 0%, 100%);
+    --body-color: hsl(0, 0%, 100%);
+
+    --container-color: hsl(0, 0%, 100%);
+    --shadow-color: hsla(var(--hue), 90%, 30%, .1);
+
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: "Syne", sans-serif;
+    --biggest-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+
+    /*========== Font weight ==========*/
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1150px) {
+    :root {
+        --biggest-font-size: 4.5rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1.125rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+    }
+}
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+    transition: background-color .4s;
+}
+
+input,
+button,
+textarea {
+    border: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #16796cfe;
+}
+
+a:hover {
+    color: #45f8ce;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*=============== THEME ===============*/
+.nav__actions {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.change-theme{
+    /* color: var(--white-color); */
+    color: black;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: color .4s;
+  }
+  .dark-theme .change-theme{
+    color: #fff;
+  }
+  
+  /*========== Variables Dark theme ==========*/
+
+
+  /*========== 
+	Color changes in some parts of 
+	the website, in dark theme
+==========*/
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+
+/*=============== HEADER & NAV ===============*/
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: var(--z-fixed);
+    transition: background-color .4s, box-shadow .4s;
+}
+
+.nav{
+    position: relative;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo{
+    color: var(--white-color);
+    font-weight: var(--font-semi-bold);
+    transition: color .4s;
+}
+
+
+.nav__toggle,
+.nav__close{
+    display: inline-flex;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.nav__toggle{
+    /* color: var(--white-color); */
+    color: var(--first-color);
+    transition: color .4s;
+}
+
+.nav__close{
+    color: var(--title-color);
+}
+
+/* Navigation for mobile devices */
+@media screen and (max-width: 1150px){
+    .nav__menu{
+        position: fixed;
+        top: -100%;
+        left: 0;
+        background-color: var(--body-color);
+        width: 100%;
+        box-shadow: 0 12px 24px var(--shadow-color);
+        padding-block: 5rem 4rem; 
+        transition: top .4s;
+    }
+}
+
+.nav__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    text-align: center;
+}
+
+.nav__link{
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+    transition: color .4s;
+}
+
+.nav__link:hover{
+    color: var(--first-color);
+}
+
+.nav__close{
+    position: absolute;
+    top: 1.15em;
+    right: 1.5em;
+}
+
+.show-menu{
+    top: 0;
+}
+
+
+/* Show menu */
+
+
+/* Change background header */
+.bg-header{
+  background-color: var(--body-color);
+  box-shadow: 0 2px 16px var(--shadow-color);
+}
+
+.bg-header :is(.nav__logo, .nav__toggle, .change-theme){
+  color: var(--title-color);
+}
+
+/* Header background color of other pages */
+.header-pages{
+  background-color: var(--body-color);
+}
+
+.header-pages :is(.nav__logo, .nav__toggle, .change-theme){
+  color: var(--title-color);
+}
+/*=============== BUTTON ===============*/
+.button{
+    display: inline-block;
+    text-transform: uppercase;
+    /* letter-spacing: .8px; */
+    /* background-color: var(--first-color); */
+    background-color: var(--body-color);
+    /* color: var(--white-color); */
+    color: #16796cfe;
+    font-weight: var(--font-semi-bold);
+    padding: 1rem 2rem;
+    transition: background-color .4s, box-shadow .4s;
+    outline: 2px solid #1be1ac;
+    overflow: hidden; 
+    transition: color 1s;
+    border-radius: 10.5rem;
+}
+
+.button:hover{
+  /* background-color: var(--first-color-alt); */
+  box-shadow: 0 8px 24px hsla(var(--hue), 90%, 60%, .5);
+  background-color: var(--body-color);
+  transform: translateY(.15rem);
+  /* transform: translateX(.25rem); */
+}
